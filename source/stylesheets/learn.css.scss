@@ -34,3 +34,19 @@
 .learning-header--tomster {
   width: 250px;
 }
+
+.showcase {
+  display: flex;
+}
+
+.showcase--item {
+  flex: 1;
+
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .showcase {
+    flex-direction: column;
+  }
+}
